@@ -1,11 +1,4 @@
-<h1 align="center">Hey, I'm Parsa Naderi</h1>
-<h3 align="center">Computer Science Student</h3>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=parsanaderix&label=Profile%20views&color=0e75b6&style=flat" alt="parsanaderix" />
-</p>
-
----
+<h1 align="center">Hey, I'm Parsa Naderi, a Computer Science student</h1>
 
 ### About Me
 - Currently building a **[Library Management System](https://github.com/ParsaNaderiX/library-management-system)**  
@@ -42,4 +35,4 @@
 
 ---
 
-<p align="center">Always building, always learning</p>
+**<p align="center">Always building, always learning</p>**
