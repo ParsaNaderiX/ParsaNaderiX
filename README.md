@@ -7,9 +7,6 @@
 
 - 🌱 I’m currently learning **FastAPI**
 
-- 📫 How to reach me **parsanaderi2004@gmail.com**
-
-- 📄 Know about my experiences [https://www.linkedin.com/in/parsanaderi](https://www.linkedin.com/in/parsanaderi)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
