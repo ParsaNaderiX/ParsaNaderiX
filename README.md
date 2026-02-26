@@ -2,8 +2,8 @@
 
 ### About Me
 - Currently working on **[Go Track on Exercism](https://github.com/ParsaNaderiX/go-exercism-solutions)**  
-- Learning **Golang** & diving deeper into software engineering  
-- Passionate about **startups**  
+- Learning **Golang** & diving deeper into **Software Engineering**  
+- Passionate about **Startups**  
 
 ### Connect with Me
 <p align="left">
