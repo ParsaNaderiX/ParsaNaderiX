@@ -1,8 +1,8 @@
 <h1 align="center">Hey, I'm Parsa Naderi, a Computer Science student</h1>
 
 ### About Me
-- Currently building a **[Library Management System](https://github.com/ParsaNaderiX/library-management-system)**  
-- Learning **FastAPI** & diving deeper into software engineering  
+- Currently working on **[Go Track on Exercism](https://github.com/ParsaNaderiX/go-exercism-solutions)**  
+- Learning **Golang** & diving deeper into software engineering  
 - Passionate about **startups**  
 
 ### Connect with Me
