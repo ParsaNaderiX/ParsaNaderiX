@@ -1,34 +1,31 @@
-<h1 align="center">Hey, I'm Parsa Naderi, a Computer Science student</h1>
+# Parsa Naderi
 
-### About Me
-- Currently working on **[Go Track on Exercism](https://github.com/ParsaNaderiX/go-exercism-solutions)**  
-- Learning **Golang** & diving deeper into **Software Engineering**  
-- Passionate about **Startups**  
+- Computer Science undergraduate at Amirkabir University of Technology (Tehran Polytechnic)
+- Undergraduate research assistant at Sharif University of Technology
+- Working on generative and score-based models for financial time series, and on robustness and interpretability in machine learning
 
-### Connect with Me
-<p align="left">
-<a href="https://linkedin.com/in/parsanaderi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="parsanaderi" height="30" width="40" /></a>
-<a href="https://kaggle.com/parsanaderix" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="parsanaderix" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/parsanaderi2004" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="parsanaderi2004" height="30" width="40" /></a>
-</p>
+## Research
 
-### Languages & Tools
-<p align="left">
-<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a>
-<a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-<a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a>
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
-<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
-<a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a>
-<a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a>
-<a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a>
-<a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a>
-<a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a>
-<a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a>
-</p>
+**StochLOB: Heavy-Tailed Score Matching for Robust Limit Order Book Trend Prediction**
 
----
+- Co-author. Under review at ACM ICAIF 2026 and the NeurIPS 2026 Workshop on AI for Stochastic Dynamics
+- Replaces Gaussian training-time corruption in denoising score matching with compound-Poisson and clipped alpha-stable alternatives, so the representation sees the jump-like and heavy-tailed perturbations real order flow produces
+- The score head is training-only, so inference stays a single deterministic forward pass
 
-**<p align="center">Always building, always learning</p>**
+**Diffusion Models in Finance: A Systematic Review**
+
+- Lead author, manuscript in preparation
+- Existing reviews of diffusion models for time series do not treat finance as its own case, despite the distinct dynamics
+- Screening is complete, and the project is in data extraction and taxonomy development
+
+**Feature dataset for the LM Arena 140K human preference corpus**
+
+- A label-blind pipeline turning raw pairwise LLM conversations into an interpretable table of several hundred scalar features, with no transformer inference
+- Classical models on these features approach the performance of language models reading the full text
+- With collaborators at Sharif University of Technology and the Alan Turing Institute. Release in preparation
+
+## Elsewhere
+
+- [LinkedIn](https://linkedin.com/in/parsanaderi)
+- parsanaderi@aut.ac.ir
+- parsanaderi2004@gmail.com
