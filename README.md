@@ -1,5 +1,8 @@
 # Parsa Naderi
 
+[LinkedIn](https://linkedin.com/in/parsanaderi) · parsanaderi@aut.ac.ir\
+parsanaderi2004@gmail.com
+
 - Computer Science undergraduate at Amirkabir University of Technology (Tehran Polytechnic)
 - Undergraduate research assistant at Sharif University of Technology
 - Working on generative and score-based models for financial time series, and on robustness and interpretability in machine learning
@@ -23,9 +26,3 @@
 - A label-blind pipeline turning raw pairwise LLM conversations into an interpretable table of several hundred scalar features, with no transformer inference
 - Classical models on these features approach the performance of language models reading the full text
 - With collaborators at Sharif University of Technology and the Alan Turing Institute. Release in preparation
-
-## Elsewhere
-
-- [LinkedIn](https://linkedin.com/in/parsanaderi)
-- parsanaderi@aut.ac.ir
-- parsanaderi2004@gmail.com
