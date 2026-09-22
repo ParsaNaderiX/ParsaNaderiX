@@ -5,7 +5,7 @@ parsanaderi2004@gmail.com
 
 - Computer Science undergraduate at Amirkabir University of Technology (Tehran Polytechnic)
 - Undergraduate research assistant at Sharif University of Technology
-- Working on generative and score-based models for financial time series, and on robustness and interpretability in machine learning
+- Working on generative models for financial time series and on robustness and interpretability in machine learning
 
 ## Research
 
