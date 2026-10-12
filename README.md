@@ -1,6 +1,7 @@
 # Parsa Naderi
 
-[LinkedIn](https://linkedin.com/in/parsanaderi) · parsanaderi@aut.ac.ir\
+[LinkedIn](https://linkedin.com/in/parsanaderi) · [Scholar](https://scholar.google.com/citations?user=lHdgX5wAAAAJ&hl=en)\
+parsanaderi@aut.ac.ir\
 parsanaderi2004@gmail.com
 
 - Computer Science undergraduate at Amirkabir University of Technology (Tehran Polytechnic)
