@@ -10,20 +10,29 @@ parsanaderi2004@gmail.com
 
 ## Research
 
-**StochLOB: Heavy-Tailed Score Matching for Robust Limit Order Book Trend Prediction**
+**StochLOB: Heavy-Tailed Score Matching for Robust Limit Order Book Trend Prediction**\
+*Third author · Accepted as an oral at the NeurIPS 2026 Workshop on AI for Stochastic Dynamics (STODY) · [Code](https://github.com/ArshiAbolghasemi/Penny)*
 
-- Co-author. Under review at ACM ICAIF 2026 and the NeurIPS 2026 Workshop on AI for Stochastic Dynamics
-- Replaces Gaussian training-time corruption in denoising score matching with compound-Poisson and clipped alpha-stable alternatives, so the representation sees the jump-like and heavy-tailed perturbations real order flow produces
-- The score head is training-only, so inference stays a single deterministic forward pass
+- Gaussian training-time corruption in denoising score matching under-represents large market moves, so StochLOB uses compound Poisson and clipped α-stable noise instead
+- The heavy-tailed noise helped in several of the most volatile windows, while the Gaussian baseline stayed competitive on clean data
+- The score head is used only in training, so inference remains a single deterministic forward pass
+- My part: the stress-regime evaluation, the OF-SATNet baseline, the attention-pooling module and the workflow figure
 
-**Diffusion Models in Finance: A Systematic Review**
+**Diffusion Models in Finance: A Systematic Review**\
+*Lead author · Manuscript in preparation*
 
-- Lead author, manuscript in preparation
-- Existing reviews of diffusion models for time series do not treat finance as its own case, despite the distinct dynamics
-- Screening is complete, and the project is in data extraction and taxonomy development
+- Started after finding no finance-specific review of diffusion models; wrote the protocol and recruited collaborators
+- Screening and data extraction are complete, and the manuscript is being written
 
-**Feature dataset for the LM Arena 140K human preference corpus**
+**A Feature-Engineered Dataset and Benchmarks for the LM Arena 140K Human Preference**\
+*With collaborators at Sharif University of Technology and the Alan Turing Institute · Manuscript in preparation · [Dataset](https://huggingface.co/datasets/Gholamali/Arena_Human_Preference_90K_features_verified) · [Code](https://github.com/Nazanin-Mirzaei/arena-preference-features)*
 
-- A label-blind pipeline turning raw pairwise LLM conversations into an interpretable table of several hundred scalar features, with no transformer inference
-- Classical models on these features approach the performance of language models reading the full text
-- With collaborators at Sharif University of Technology and the Alan Turing Institute. Release in preparation
+- Released on Hugging Face as *Arena Human Preference 90K: Engineered Features and Correctness Annotations*: about 90K battles with interpretable features, computed without reading the preference label and without any transformer inference
+- A human-reviewed subset of 218 battles shows that roughly a third of preference labels don't track correctness
+- My parts: the language-identification module for noisy LLM outputs, and the 34 A-vs-B comparators (218 features) in the pipeline code
+
+**Arena Preference Classifier** · [Code](https://github.com/ParsaNaderiX/arena-preference-classifier)
+
+- Predicts all four outcomes (A wins, B wins, tie, both bad) from the released features
+- Swapping A and B as augmentation halved position bias, unlike a random-swap control
+- Ties and "both bad" are partly predictable (AUC 0.60-0.63), though argmax rarely picks them
